@@ -64,3 +64,48 @@ height: 100%;
     transition: ease-in-out all 0.5s;
     background-color: #cc2daf;
 }
+.content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../IMG/creditImg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content__form{
+    width: 40%;
+    height: 40%;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    backdrop-filter: blur(7px);
+    border: solid 1px white;
+    box-shadow: 7px 6px 3px #a9228e;
+}
+.content__form button{
+    width: 40%;
+    height: 50px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.content__form button::before{
+position: absolute;
+z-index: -1;
+content: '';
+width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+transition: ease-in-out all 0.7s;
+}
+.content__form button:hover::before{
+    height: 100%;
+    transition: ease-in-out all 0.7s;
+    background-color: #cc2daf;
+}
