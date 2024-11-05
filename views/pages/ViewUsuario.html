@@ -7,42 +7,42 @@
     <title>Usuario</title>
 </head>
 <body>
-    <form class="login" action="">
+    <form id="form-login" class="login" action="">
         <div>
             <label for="">Usuario</label>
-            <input type="text">
+            <input name="loginUsuario" type="text">
         </div>
         <div>
             <label for="">Contraseña</label>
-            <input type="text">
+            <input name="loginContraseña" type="text">
         </div>
         <button type="button">Iniciar Sesión</button>
-        <p>¿No tiene cuenta?</p>
+        <p id="btnFormLogin">¿No tiene cuenta?</p>
     </form>
 
-    <form class="register" action="">
+    <form id="form-register" class="register" action="">
         <div>
             <label for="">Nombre Completo</label>
-            <input type="text">
+            <input name="registerNombre" type="text">
         </div>
         <div>
             <label for="">Usuario</label>
-            <input type="text">
+            <input name="registerUsuario" type="text">
         </div>
         <div>
             <label for="">Correo Electronico</label>
-            <input type="text">
+            <input name="registerCorreo" type="text">
         </div>
         <div>
             <label for="">Contraseña</label>
-            <input type="text">
+            <input name="registerContraseña" type="text">
         </div>
         <div>
             <label for="">Confirmar Contraseña</label>
-            <input type="text">
+            <input name="registerConfirmarContr" type="text">
         </div>
         <button type="button">Registrarse</button>
-        <p>¿Ya tiene una cuenta?</p>
+        <p id="btnFormRegister">¿Ya tiene una cuenta?</p>
     </form>
     <script src="/views/public/JS/Script.js"></script>
 </body>
