@@ -1,3 +1,6 @@
+import{expresionesRegulares} from"../../../helpers/expresiones.js";
+
+console.log(expresionesRegulares)
 // function Persona(nombre, edad, estatura, color){
 //     this.nombre = nombre
 //     this.edad = edad
@@ -34,6 +37,7 @@
 //     }
 // }
 
+
 document.querySelector('#btnFormRegister').addEventListener('click', function(){
     document.querySelector('#form-login').style.display='flex'
     document.querySelector('#form-register').style.display='none'
@@ -49,18 +53,37 @@ for (let index=0; index<inputs.length; index++){
     }
 
     function  validarFormulario(e){
+        console.log(e)
+
         switch (e.target.name){
         case 'loginUsuario':
-                console.log('Este es el input de login Usuario')
+                if(expresionesRegulares.nombre.test(e.target.value)){
+                    console.log("Pasó la validación")
+                } else{
+                    console.log("El campo solo permite letras en mayúsculs")
+                }
             break;
         case 'loginContraseña':
                 console.log('Este es el input de login Contraseña')
             break;
         case 'registerNombre':
-                console.log('Este es el input de register Nombre')
+            if(expresionesRegulares.nombre.test(e.target.value)){
+                console.log("Pasó la validación")
+            } else{
+                console.log("El campo solo permite letras en mayúsculs")
+            }
             break;
         case 'registerUsuario':
                 console.log('Este es el input de register Usuario')
+            break;
+        case 'registerCorreo':
+                console.log('Este es el input de register Correo')
+            break;
+        case 'registerContraseña':
+                console.log('Este es el input de register Contraseña')
+            break;
+        case 'registerConfirmarContr':
+                console.log('Este es el input de register ConfirmarContr')
             break;
         default:
 
