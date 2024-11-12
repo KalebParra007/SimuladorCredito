@@ -68,22 +68,49 @@ for (let index=0; index<inputs.length; index++){
             break;
         case 'registerNombre':
             if(expresionesRegulares.nombre.test(e.target.value)){
-                console.log("Pasó la validación")
+                document.getElementById("registerNombre").classList.add('correcto')
+                document.getElementById("registerNombre").classList.remove('incorrecto')
             } else{
-                console.log("El campo solo permite letras en mayúsculs")
+                document.getElementById("registerNombre").classList.add('incorrecto')
+                document.getElementById("registerNombre").classList.remove('correcto')
+                // document.getElementById("mensajeNom").textContent="El nombre solo puede ir en mayúsculas"
             }
             break;
         case 'registerUsuario':
-                console.log('Este es el input de register Usuario')
+            if(expresionesRegulares.usuario.test(e.target.value)){
+                document.getElementById("registerUsuario").classList.add('correcto')
+                document.getElementById("registerUsuario").classList.remove('incorrecto')
+            } else{
+                document.getElementById("registerUsuario").classList.add('incorrecto')
+                document.getElementById("registerUsuario").classList.remove('correcto')
+            }
             break;
         case 'registerCorreo':
-                console.log('Este es el input de register Correo')
+            if(expresionesRegulares.correo.test(e.target.value)){
+                document.getElementById("registerCorreo").classList.add('correcto')
+                document.getElementById("registerCorreo").classList.remove('incorrecto')
+            } else{
+                document.getElementById("registerCorreo").classList.add('incorrecto')
+                document.getElementById("registerCorreo").classList.remove('correcto')
+            }
             break;
         case 'registerContraseña':
-                console.log('Este es el input de register Contraseña')
+            if(expresionesRegulares.contraseña.test(e.target.value)){
+                document.getElementById("registerContraseña").classList.add('correcto')
+                document.getElementById("registerContraseña").classList.remove('incorrecto')
+            } else{
+                document.getElementById("registerContraseña").classList.add('incorrecto')
+                document.getElementById("registerContraseña").classList.remove('correcto')
+            }
             break;
         case 'registerConfirmarContr':
-                console.log('Este es el input de register ConfirmarContr')
+            if(expresionesRegulares.contraseña.test(e.target.value)){
+                document.getElementById("registerConfirmarContr").classList.add('correcto')
+                document.getElementById("registerConfirmarContr").classList.remove('incorrecto')
+            } else{
+                document.getElementById("registerConfirmarContr").classList.add('incorrecto')
+                document.getElementById("registerConfirmarContr").classList.remove('correcto')
+            }
             break;
         default:
 

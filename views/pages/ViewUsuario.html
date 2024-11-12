@@ -10,40 +10,42 @@
     <form id="form-login" class="login" action="">
         <div>
             <label for="">Usuario</label>
-            <input name="loginUsuario" type="text">
+            <input name="loginUsuario" id="loginUsuario" type="text">
         </div>
         <div>
             <label for="">Contraseña</label>
-            <input name="loginContraseña" type="text">
+            <input name="loginContraseña" id="loginContraseña" type="text">
         </div>
-        <button type="button">Iniciar Sesión</button>
+        <button id="btnLogin" type="button">Iniciar Sesión</button>
         <p id="btnFormLogin">¿No tiene cuenta?</p>
     </form>
 
     <form id="form-register" class="register" action="">
         <div>
             <label for="">Nombre Completo</label>
-            <input name="registerNombre" type="text">
+            <input name="registerNombre" id="registerNombre" type="text">
+            <span id="mensajeNom"></span>
         </div>
         <div>
             <label for="">Usuario</label>
-            <input name="registerUsuario" type="text">
+            <input name="registerUsuario" id="registerUsuario" type="text">
         </div>
         <div>
             <label for="">Correo Electronico</label>
-            <input name="registerCorreo" type="text">
+            <input name="registerCorreo" id="registerCorreo" type="text">
         </div>
         <div>
             <label for="">Contraseña</label>
-            <input name="registerContraseña" type="text">
+            <input name="registerContraseña" id="registerContraseña" type="text">
         </div>
         <div>
             <label for="">Confirmar Contraseña</label>
-            <input name="registerConfirmarContr" type="text">
+            <input name="registerConfirmarContr" id="registerConfirmarContr" type="text">
         </div>
-        <button type="button">Registrarse</button>
+        <button id="btnRegistrar" type="button">Registrarse</button>
         <p id="btnFormRegister">¿Ya tiene una cuenta?</p>
     </form>
     <script type="module" src="/views/public/JS/Script.js"></script>
+    <script type="module" src="/views/public/JS/scriptUsuario.js"></script>
 </body>
 </html>
