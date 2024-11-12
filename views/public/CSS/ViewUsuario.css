@@ -31,16 +31,23 @@ position: absolute;
     width: 40%;
 }
 .login div input, .register div input{
-    outline: none;
     height: 30px;
-}.login div input:focus, .register div input:focus{
-    outline: none;
-    border-color: #a9228e;
 }
+/* .login div input:focus, .register div input:focus{
+    outline: none;
+} */
 button[type="button"]{
 width: 30%;
 height: 40px;
 background: none;
 cursor: pointer;
 border: solid 3px #a9228e;
+}
+
+.incorrecto{
+outline: solid 2px red;
+}
+
+.correcto{
+outline: solid 2px green;
 }
