@@ -1,0 +1,22 @@
+{
+  "name": "simuladorcredito",
+  "version": "1.0.0",
+  "description": "Proyecto simulador con persistencia de datos en json-server, El proyecto se construye con JavaScript Vanilla y Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Js",
+    "JavaScript",
+    "MVC",
+    "CSS",
+    "HTML"
+  ],
+  "author": "Kaleb Parra Marin",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

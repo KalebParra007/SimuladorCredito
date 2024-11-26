@@ -13,15 +13,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(circle, #a9228e 0%, black 100%)
 }
 .login, .register{
-width: 50%;
-height: 50%;
+width: 45%;
+height: 70%;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 flex-direction: column;
-background-color: white;
+background-color: violet;
 position: absolute;
 }
 .login div, .register div{
