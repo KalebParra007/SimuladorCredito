@@ -4,7 +4,8 @@
   "description": "Proyecto simulador con persistencia de datos en json-server, El proyecto se construye con JavaScript Vanilla y Node JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "json-server --port 3000 models/database.json"
   },
   "keywords": [
     "Node",

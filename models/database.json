@@ -1,0 +1,27 @@
+{
+  "modelCredito": [],
+  "modelUsuario": [
+    {
+      "nombre": "JULIANA",
+      "usuario": "lajuli",
+      "correo": "juliana@gmail.com",
+      "contraseña": "Juli12*",
+      "confirmarContraseña": "Juli12*",
+      "id": "adf89654ad"
+    },
+    {
+      "nombre": "DANIEL",
+      "usuario": "danipro",
+      "correo": "danielll@gmail.com",
+      "contraseña": "Dan34*..",
+      "confirmarContraseña": "Dan34*..",
+      "id": "1b11"
+    },
+    {
+      "id": "6bb9"
+    },
+    {
+      "id": "4d5e"
+    }
+  ]
+}
