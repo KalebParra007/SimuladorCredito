@@ -22,6 +22,30 @@
     },
     {
       "id": "4d5e"
+    },
+    {
+      "id": "afg78654",
+      "nombre": "KALEB",
+      "usuario": "lakbra",
+      "correo": "kaleb@gmail.com",
+      "contraseña": "Kaleb07*",
+      "confirmarContraseña": "Kaleb07*"
+    },
+    {
+      "id": "d9f6",
+      "nombre": "SANTIAGO",
+      "usuario": "santireal",
+      "correo": "santiago@gmail.com",
+      "contraseña": "Santi09*",
+      "confirmarContraseña": "Santi09*"
+    },
+    {
+      "id": "4377",
+      "nombre": "PENELOPE",
+      "usuario": "penelope",
+      "correo": "pene@pene.com",
+      "contraseña": "Pene123.",
+      "confirmarContraseña": "Pene123."
     }
   ]
 }
